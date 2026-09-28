@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-quantum-gate-hadamard-pauli-cnot-engine-skill"
+version = "1.0.0"
+description = "Quantum unitary gate engine applying single-qubit (Hadamard, Pauli-X/Y/Z) and two-qubit entangling (CNOT) matrix operators."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
